@@ -1,0 +1,33 @@
+.adnanImg {
+  width: 35vw;
+  border-radius: 50%;
+}
+@media (max-width: 500px) {
+  .adnanImg {
+    width: 50vw;
+  }
+}
+@media (min-width: 1024px) {
+  .imgContainer {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .adnanImg {
+    width: 300px;
+    border: 10px solid black;
+    margin-left: 50px;
+  }
+  p {
+    margin-top: 7%;
+    margin-left: 20px !important;
+  }
+}
+.imgContainer {
+  text-align: center;
+}
+p {
+  margin-left: 7%;
+  margin-right: 7%;
+  text-align: start;
+}
