@@ -36,13 +36,19 @@ function Contact() {
                         </div>
                     </form>
                 </div>
-                <div className="contact-right">
+                     <div className="contact-right">
                     <h2>Get in Touch</h2>
                     <div className="contact-logos">
-                        <Image src="/upwork.svg" alt="Logo 1" width={50} height={50} className="logo" />
-                        <Image src="/facebook.svg" alt="Logo 2" width={50} height={50} className="logo" />
+                        <Link href="https://www.upwork.com/freelancers/~014df3fe6f20c06dbd" passHref target="_blank"  >
+                            <Image src="/upwork.svg" alt="Logo 1" width={50} height={50} className="logo" />
+                        </Link>
+                        <Link href="https://www.linkedin.com/in/maher-haramy-38b101160/" passHref target="_blank" >
+                            <Image src="/linkedin.svg" alt="Logo 4" width={50} height={50} className="logo" />
+                        </Link>
+                        <Link href="https://www.facebook.com/maher.haramy.2020" passHref target="_blank" >
+                            <Image src="/facebook.svg" alt="Logo 2" width={50} height={50} className="logo" />
+                        </Link>
                         <Image src="/whatsapp.svg" alt="Logo 3" width={50} height={50} className="logo" />
-                        <Image src="/linkedin.svg" alt="Logo 4" width={50} height={50} className="logo" />
                         <Image src="/twitter.svg" alt="Logo 5" width={50} height={50} className="logo" />
                     </div>
                 </div>
