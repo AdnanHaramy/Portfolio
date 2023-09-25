@@ -3,6 +3,9 @@ import Image from 'next/image';
 function Experience() {
     return (
         <section className="experience">
+            <div className="experience-holder">
+                <h2 className="experience-header" >Experience</h2>
+            </div>
             <div className="experience-container">
                 <div className="experience-item">
                     <div className="experience-logo">
