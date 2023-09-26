@@ -15,10 +15,18 @@ function Teaching() {
                 </div>
                 <div className="right-container">
                     <div className="image-container">
-                        <Image src="/maher.png" alt="maher" width={200} height={200} />
+                        <Image src="/maher2.png"
+                            alt="Maher Photo Giving a Lecture"
+                            layout=""
+                            width={280}
+                            height={180} />
                     </div>
                     <div className="image-container">
-                        <Image src="/maher.png" alt="maher" width={200} height={200} />
+                        <Image src="/maher3.png"
+                            alt="Maher Photo in a ceremony"
+                            layout=""
+                            width={280}
+                            height={180} />
                     </div>
                 </div>
 
