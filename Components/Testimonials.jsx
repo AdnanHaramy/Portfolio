@@ -1,8 +1,12 @@
 import React from 'react';
 import Slider from './Slider';
 function Testimonials() {
-    const images = ['/maher.png', '/maher.png', '/maher.png'];
-    const captions = ['Caption 1', 'Caption 2', 'Caption 3'];
+    const images = ['/student1.jpg', '/student2.jpg', '/student3.jpeg'];
+    const captions = [
+        '❝ Mr. Maher teaching ignites\n a passion for learning in students.❞',
+        '❝ Mr. Maher classes inspire\n students to excel in their studies. ❞',
+        '❝ Mr. Maher teaching methods\n captivate and empower students. ❞',
+    ];
     return (
         <section className="testimonials">
             <div className="testimonials-container">
@@ -20,4 +24,3 @@ function Testimonials() {
     );
 }
 export default Testimonials;
-
