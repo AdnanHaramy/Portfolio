@@ -5,7 +5,13 @@ function Introduction() {
         <section className="Introduction" >
             <div className="Introduction-content">
                 <div className="Introduction-image">
-                    <Image src='/maher.png' width={270} height={270} style={{ borderRadius: '50%' }} />
+                    <Image
+                        priority={true}
+                        src='/maher.png'
+                        alt="Maher Haramy photo"
+                        width={270}
+                        height={270}
+                        style={{ borderRadius: '50%' }} />
                 </div>
                 <div className="Introduction-text">
                     <h2 className="Introduction-header" >MAHER HARAMY</h2>
