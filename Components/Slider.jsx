@@ -12,7 +12,11 @@ const Slider = ({ images, captions }) => {
     return (
         <div className="slider">
             <div className="slide-container">
-                <Image src={images[currentIndex]} alt={`Slide ${currentIndex + 1}`} className="slide" width={200} height={200} />
+                <Image src={images[currentIndex]}
+                    alt={`Student ${currentIndex + 1}`}
+                    className="slide"
+                    width={200}
+                    height={200} />
                 <p className="caption">{captionLines}</p>
             </div>
             <div className="dots">
