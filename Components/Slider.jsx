@@ -1,23 +1,29 @@
 "use client";
 import React, { useState } from 'react';
 import Image from 'next/image';
-const Slider = ({ images, captions }) => {
+const Slider = ({ images, captions = [] }) => {
     const [currentIndex, setCurrentIndex] = useState(0);
-    const captionLines = captions[currentIndex].split('\n').map((line, index) => (
-        <React.Fragment key={index}>
-            {line}
-            <br />
-        </React.Fragment>
-    ));
+    const captionLines = captions[currentIndex]
+        ? captions[currentIndex].split('\n').map((line, index) => (
+            <React.Fragment key={index}>
+                {line}
+                <br />
+            </React.Fragment>
+        ))
+        : null;
     return (
         <div className="slider">
             <div className="slide-container">
-                <Image src={images[currentIndex]}
+                <Image
+                    src={images[currentIndex]}
                     alt={`Student ${currentIndex + 1}`}
                     className="slide"
                     width={200}
-                    height={200} />
-                <p className="caption">{captionLines}</p>
+                    height={200}
+                />
+                {captionLines && (
+                    <p className="caption">{captionLines}</p>
+                )}
             </div>
             <div className="dots">
                 {images.map((_, index) => (
