@@ -17,7 +17,12 @@ function Testimonials() {
                     </p>
                 </div>
                 <div className="testimonials-right">
-                    <Slider images={images} captions={captions} />
+                    <Slider
+                        images={images}
+                        captions={captions}
+                        height={200}
+                        width={200}
+                    />
                 </div>
             </div>
         </section>
