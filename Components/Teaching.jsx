@@ -19,14 +19,18 @@ function Teaching() {
                             alt="Maher Photo Giving a Lecture"
                             layout=""
                             width={280}
-                            height={180} />
+                            height={180}
+                            className="maher-photo"
+                        />
                     </div>
                     <div className="image-container">
                         <Image src="/maher3.png"
                             alt="Maher Photo in a ceremony"
                             layout=""
                             width={280}
-                            height={180} />
+                            height={180}
+                            className="maher-photo"
+                        />
                     </div>
                 </div>
 
