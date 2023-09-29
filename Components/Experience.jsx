@@ -9,6 +9,17 @@ function Experience() {
             <div className="experience-container">
                 <div className="experience-item">
                     <div className="experience-logo">
+                        <Image src="/ukh.svg" alt="University Logo 1" width={120} height={120} />
+                    </div>
+                    <div className="experience-text">
+                        <h3>University of Kurdistan Hewlêr</h3>
+                        <p>A Lecturer in English Language  <br />
+                            Feb 2023 - Present  <br />
+                        </p>
+                    </div>
+                </div>
+                <div className="experience-item">
+                    <div className="experience-logo">
                         <Image src="/adra.svg" alt="University Logo 1" width={120} height={120} />
                     </div>
                     <div className="experience-text">
