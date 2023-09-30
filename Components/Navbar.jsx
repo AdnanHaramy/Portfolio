@@ -1,18 +1,20 @@
 import React from 'react';
-function Navbar() {
+import CustomLink from './CustomLink';
+
+const Navbar = () => {
     return (
         <nav className="navbar">
-            <div className="logo">  </div>
+            <div className="logo"></div>
             <ul className="nav-links">
                 <li className="nav-link">
-                    <a href="/">Home</a>
+                    <CustomLink targetId="home-section">Home</CustomLink>
                 </li>
                 <li className="nav-link">
-                    <a href="/contact">Contact</a>
+                    <CustomLink targetId="contact-section">Contact</CustomLink>
                 </li>
             </ul>
         </nav>
     );
-}
+};
 
 export default Navbar;
